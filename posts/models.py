@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class post(models.Model):
+class Post(models.Model):
     text = models.TextField()
     email = models.EmailField()
 
